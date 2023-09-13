@@ -1,0 +1,37 @@
+$textColor : #373d40;
+
+.info-wrapper {
+    background-color: #ff9200;
+    display: flex;
+    flex-direction: column;
+    padding: 75px;
+    border-radius: 0 21px 21px 0;
+    margin-top: 31px;
+
+    @media (max-width: 925px) {
+        border-radius: 0;
+        max-width: 500px;
+        margin: 0px auto;
+        padding-top: 85px;
+        padding-bottom: 60px;
+    }
+
+    @media (max-width: 656px) {
+        padding: 75px 25px;
+    }
+
+
+    h1 {
+        color: $textColor;
+    }
+
+    p {
+        color: $textColor;
+
+        >a {
+            color: $textColor;
+            font-weight: 700;
+            font-size: 15px;
+        }
+    }
+}
