@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faChevronCircleRight,
   faChevronCircleLeft,
   faUserCircle,
 } from "@fortawesome/free-solid-svg-icons";
